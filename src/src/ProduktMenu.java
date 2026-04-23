@@ -30,7 +30,7 @@ public class ProduktMenu {
     }
     @Override
     public String toString() {
-        return "ProduktMenu{" + "kod='" + kod + '\'' + ", nazwa='" + nazwa + '\'' + ", cena='" + cena + "zł" + ", kategoria='" + kategoria + '\'' + '}';
+        return "ProduktMenu{" + "kod='" + kod + '\'' + ", nazwa='" + nazwa + '\'' + ", cena=" + cena + "zł" + ", kategoria='" + kategoria + '\'' + '}';
     }
     @Override
     public boolean equals(Object obj) {
